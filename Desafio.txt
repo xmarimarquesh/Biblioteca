@@ -1,0 +1,57 @@
+----------- Desafio: Sistema de Gerenciamento de Biblioteca
+
+Imagine que você precisa desenvolver um sistema simples de gerenciamento de biblioteca. 
+Este sistema deve permitir ao usuário (bibliotecário) realizar várias operações, como adicionar livros, 
+remover livros, listar livros disponíveis, emprestar livros para os usuários e receber livros devolvidos.
+
+Aqui estão os requisitos detalhados para o sistema:
+
+----------- Livro:
+
+Cada livro possui um título, autor e um identificador único (ID).
+Implemente uma classe Livro com atributos para representar essas informações.
+
+----------- Usuário:
+
+Cada usuário da biblioteca tem um nome, um número de identificação 
+único e uma lista de livros que ele pegou emprestado.
+Implemente uma classe Usuario para representar essas informações.
+
+----------- Biblioteca:
+
+A biblioteca contém uma lista de todos os livros disponíveis.
+Implemente uma classe Biblioteca que possui métodos para adicionar livros, 
+remover livros, listar todos os livros disponíveis e buscar um livro pelo seu ID.
+
+----------- Operações:
+
+Adicionar livro: Um método que permite adicionar um novo livro à biblioteca.
+Remover livro: Um método que permite remover um livro da biblioteca, dado seu ID.
+Listar livros disponíveis: Um método que lista todos os livros disponíveis na biblioteca.
+Emprestar livro: Um método que permite emprestar um livro a um usuário. Isso deve marcar o livro como emprestado e associá-lo ao usuário.
+Receber livro devolvido: Um método que marca um livro como devolvido pelo usuário.
+Listar livros emprestados por usuário: Um método que lista todos os livros atualmente emprestados por um usuário específico.
+Verificar disponibilidade de um livro: Um método que verifica se um livro específico está disponível ou emprestado.
+
+----------- Main Class:
+
+Implemente uma classe principal BibliotecaApp que simula o uso do sistema.
+Na BibliotecaApp, crie alguns livros e usuários fictícios, empreste e devolva alguns livros, 
+e exiba os resultados usando os métodos implementados.
+
+----------- Requisitos adicionais:
+
+Use classes separadas para Livro, Usuario e Biblioteca.
+Considere casos de uso variados, como emprestar um livro que não está na biblioteca, 
+tentar adicionar um livro que já está na biblioteca, etc.
+Implemente manipulação de exceções para situações como tentativa de empréstimo de um 
+livro já emprestado, tentativa de devolução de um livro não emprestado, etc.
+
+Este desafio deve cobrir os seguintes conceitos:
+
+Classes e objetos
+Encapsulamento
+Métodos e construtores
+Arrays ou coleções (para armazenar livros e usuários)
+Exceções (tratamento de erros)
+Uso de métodos para manipulação de objetos
