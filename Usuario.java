@@ -1,11 +1,13 @@
+import java.util.ArrayList;
+
 public class Usuario {
     public String nome;
     public int ID;
-    public Livro livros[] = new Livro[10];
+    public ArrayList<Livro> livros_emprestados = new ArrayList<Livro>();
 
-    public Usuario(String nome, int ID, Livro[] livros) {
+
+    public Usuario(String nome, int ID) {
         this.nome = nome;
         this.ID = ID;
-        this.livros = livros;
     }
 }
